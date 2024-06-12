@@ -1,0 +1,163 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Redressed", cursive;
+    box-sizing: border-box;
+
+}
+nav{
+    background-color: transparent;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+nav ul{
+    display: flex;
+
+}
+nav ul a{
+    color: blueviolet;
+    text-decoration-line: underline;
+    margin: 20px;
+    font-size: larger;
+    font-weight: bold;
+}
+nav ul li a.hover{
+    text-shadow: 2px 4px 6px black;
+}
+video{
+    width: 100%;
+    height: 700px;
+    object-fit:cover;
+}
+.overlay{
+position: absolute;
+top: 70%;
+left: 80%;
+
+}
+h1{
+    color: aliceblue;
+}
+h1.hover{
+    color: aqua;
+    text-decoration: underline;
+    text-shadow: 2px 4px 6px red;
+}
+span{
+    color: blueviolet;
+    font-size: 30px;
+}
+#home{
+    display: flex;
+    height: 700px;
+    flex-direction: column;
+}
+#home::before{
+    content:"";
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f092e7c0-e665-424e-9363-38f683cb1c8f/dh8dwch-0774802d-6d5e-4693-8a40-b308b67a60c1.jpg/v1/fill/w_692,h_1154,q_70,strp/a_30_year_old_emma_watson_in_a_black_trouser_suit__by_lizripper2000_dh8dwch-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcL2YwOTJlN2MwLWU2NjUtNDI0ZS05MzYzLTM4ZjY4M2NiMWM4ZlwvZGg4ZHdjaC0wNzc0ODAyZC02ZDVlLTQ2OTMtOGE0MC1iMzA4YjY3YTYwYzEuanBnIiwid2lkdGgiOiI8PTc2OCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.rykJSeQRo8E8G1X_8DJNES6Ua3wTNeSZtMPkswETtSg); 
+    height: 100%;
+    background-size: cover;
+    width: 50%;
+}
+.main{
+    border: 2px inset blueviolet;
+    padding: 5px;
+    position: absolute;
+    height: 100px;
+    width: 20%;
+    left: 70%;
+    margin-top: 200px;
+    box-shadow: 2px 5px black;
+}
+.main.hover{
+    box-shadow: 2px 4px rgb(184, 184, 236);
+    scale: 1.05;
+}
+.pic{
+    display: flex;
+}
+.pic.img{
+    width: 400px;
+}
+.pic.h4{
+    color: blueviolet;
+    font-size: 30px;
+    text-align: center;
+}
+.pic.p{
+text-align: justify;
+margin: 10px;
+}
+h3{
+    text-align: center;
+    background-color: cornflowerblue;
+    margin-top: 10px;
+}
+.gallery{
+    box-shadow: 2px 4px 6px 8px rgb(95, 52, 250);
+    margin: 10px;
+}
+.gallery img{
+    width: 365px;
+    margin: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.gallery img:hover{
+    scale: 1.03;
+}
+.row{
+    display: flex;
+}
+.box{
+    width: 300px;
+    height: 500px;
+    margin: 10px;
+    border: 4px inset rgb(40, 5, 83);
+    background:linear-gradient(to top, rgb(176, 98, 255)50%,rgb(243, 240, 247)50%);
+    background-size: 100% 200%;
+    transition: all 0.6s;
+
+}
+.box:hover{
+    background-position: left bottom;
+    box-shadow:4px 6px 8px rgb(56, 240, 240);
+}
+.box img{
+    width: 291px;
+    height: 200px;
+    border-radius: 30%;
+}
+.box p{
+    text-align: justify;
+    margin: 4px;
+
+}
+.box h5{
+    font-size: larger;
+    color: rgb(2, 2, 51);
+}
+form{
+    width: 500px;
+    margin-left: 500px;
+}
+.input{
+    width: 100%;
+    margin: 10px;
+
+}
+button{
+    color: azure;
+    background-color: black;
+    cursor: pointer;
+}
+.CV{
+    background-color:black ;
+    color: beige;
+    text-decoration: none;
+    padding: 5px;
+    margin-left: 70%;
+    border-radius: 40%;
+}
